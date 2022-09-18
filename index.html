@@ -14,20 +14,43 @@
     />
   </head>
   <body>
-    <h1 class="tite">Make your Payment</h1>
-    <div align="center" class="container pad">
-      <button id="btnpay" type = "button" onclick="keypress('displist')" class = "btn btn-primary">Pay Now</button>
+    <div>
+      <h1 class="tite">Make your Payment</h1>
+      <div align="center" class="container pad">
+        <button
+          id="btnpay"
+          type="button"
+          onclick="keypress('displist')"
+          class="btn btn-primary"
+        >
+          Pay Now
+        </button>
+      </div>
+      <div class="cen" id="displist" style="display: none">
+        <center>
+          <ul class="cen">
+            <li>Google Pay</li>
+            <li>Phone Pe</li>
+            <li>Paytm</li>
+            <li>Card Payment</li>
+          </ul>
+        </center>
+      </div>
     </div>
-    <div class="cen" id="displist" style="display: none;">
-      <center>
-        <ul class="cen">
-          <li>Google Pay</li>
-          <li>Phone Pe</li>
-          <li>Paytm</li>
-          <li>Card Payment</li>
+    <div class="container">
+      <div align="center" class="container pad">
+        <button id="btnpay1" type="button" class="btn btn-success">
+          Pay Now
+        </button>
+      </div>
+      <div class="container" id="condisp" style="display: none">
+        <ul>
+          <li>Gpay</li>
+          <li>phone pe</li>
+          <li>card</li>
+          <li>paytm</li>
         </ul>
-      </center>
-    </div>
+      </div>
     </div>
     <script src="./assets/scripts/app.js"></script>
   </body>
