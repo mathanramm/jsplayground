@@ -6,3 +6,6 @@ function keypress(btnpay) {
     press.style.display = "none";
   }
 }
+
+var a = getElementById(btnpay1);
+a.onclick = keypress1();
