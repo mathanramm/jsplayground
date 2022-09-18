@@ -1,6 +1,20 @@
 .tite {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 2%;
   font-size: 24px;
   line-height: 28px;
   color: blue;
+  text-align: center;
+}
+
+.pad {
+  padding-top: 1%;
+}
+
+#btnpay {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  font-weight: bold;
+}
+
+.cen {
+  padding-top: 2%;
 }

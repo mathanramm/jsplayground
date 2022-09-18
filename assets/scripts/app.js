@@ -1,6 +1,8 @@
-let aVal = "Mathan";
-const totUsers = 60;
-
-aVal = aval + Ram;
-
-output(aVal);
+function keypress(btnpay) {
+  const press = document.getElementById(btnpay);
+  if (press.style.display === "none") {
+    press.style.display = "block";
+  } else {
+    press.style.display = "none";
+  }
+}
