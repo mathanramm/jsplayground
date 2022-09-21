@@ -15,6 +15,12 @@ btn.addEventListener("click", func);
 function func() {
   if (list.style.display === "none") {
     list.style.display = "block";
+    btn.disabled = true;
+    btn.innerHTML = "Payment Details";
+    btn.style.backgroundColor = "blue";
+    setTimeout(() => {
+      list.style.display = "none";
+    }, 50000);
   } else {
     list.style.display = "none";
   }
