@@ -7,12 +7,12 @@
 //   }
 // }
 
-var btn = document.getElementById("btnpayy");
-var list = document.getElementById("condisp");
+const btn = document.getElementById("btnpayy");
+const list = document.getElementById("condisp");
 
 btn.addEventListener("click", func);
 
-function func(list) {
+function func() {
   if (list.style.display === "none") {
     list.style.display = "block";
   } else {
