@@ -18,6 +18,7 @@ function func() {
     btn.disabled = true;
     btn.innerHTML = "Payment Details";
     btn.style.backgroundColor = "blue";
+    btn.style.color = "red";
     setTimeout(() => {
       list.style.display = "none";
     }, 50000);
